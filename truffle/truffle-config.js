@@ -55,14 +55,14 @@ module.exports = {
     },
     ganache:{
       provider :()=>{
-        return new HDWalletProvider('mango any circle gold tenant video slow brisk middle injury subject old' , "http://localhost:8545" , AccountIndex)
+        return new HDWalletProvider('' , "http://localhost:8545" , AccountIndex)
       },
       network_id : "*",
        
      },
      ropsten:{
       provider :()=>{
-        return new HDWalletProvider('mango any circle gold tenant video slow brisk middle injury subject old' , "wss://ropsten.infura.io/ws/v3/5071982a25e54f9bac0523962fbf63bf" , AccountIndex)
+        return new HDWalletProvider('' , "wss://ropsten.infura.io/ws/v3/" , AccountIndex)
       },
       network_id :3,
        
